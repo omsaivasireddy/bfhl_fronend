@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { TextField, Button, Box, Typography, Select, MenuItem, FormControl, InputLabel, Chip, IconButton } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
-REACT_APP_API_URL = 'https://bfhl-backend-ruddy.vercel.app/bfhl'
+const REACT_APP_API_URL = 'https://bfhl-backend-ruddy.vercel.app/bfhl'
 const API_URL = REACT_APP_API_URL || 'http://localhost:5000';
 
 function App() {
